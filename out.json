@@ -1,0 +1,2261 @@
+{
+    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.ItineraryResult, Tfl.Api.Presentation.Entities",
+    "journeyVector": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.JourneyVector, Tfl.Api.Presentation.Entities",
+        "from": "Vauxhall Underground Station",
+        "to": "Royal Oak Underground Station",
+        "uri": "/journey/journeyresults/vauxhall%20underground%20station/to/royal%20oak%20underground%20station/?mode=tube",
+        "via": ""
+    },
+    "journeys": [
+        {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+            "arrivalDateTime": "2018-02-18T10:52:00",
+            "duration": 35,
+            "legs": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51574948842,
+                        "lon": -0.1422704349,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:24:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Vauxhall Underground Station",
+                        "icsCode": "1000247",
+                        "lat": 51.48621419895,
+                        "lon": -0.12451608005999999,
+                        "naptanId": "940GZZLUVXL",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:17:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:18:00",
+                            "description": "Please take extra care and hold the handrail. Please use the lift if travelling with luggage, buggies etc.",
+                            "lastUpdate": "2017-09-27T12:19:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 7,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Victoria line towards Walthamstow Central, or Seven Sisters",
+                        "steps": [],
+                        "summary": "Victoria line to Oxford Circus"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "LEVEL",
+                            "position": "AFTER",
+                            "stopId": 1000173,
+                            "type": "WALKWAY"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.48621419895, -0.12451608006],[51.4863561349, -0.12495676701],[51.48806208944, -0.12873267836],[51.48856734853, -0.12996516261],[51.48877882606, -0.13082076959],[51.48892670249, -0.13163577123],[51.48904046048, -0.13256740753],[51.48911986812, -0.13360128227],[51.48919886345, -0.13404459449],[51.48919886345, -0.13404459449],[51.48930687823, -0.13461636412],[51.48952730886, -0.13547164062],[51.49009396578, -0.13717709049],[51.49040515953, -0.13808631511],[51.49110595682, -0.14088115285],[51.49130540311, -0.14155007924],[51.49200586237, -0.14319261125],[51.49269969367, -0.14441770134],[51.49325005917, -0.14510123285],[51.49393021384, -0.14546258356],[51.4943362117, -0.1455469483],[51.49473140144, -0.1455165036],[51.49516856502, -0.14529707255],[51.49710909825, -0.14347506163],[51.49710909825, -0.14347506163],[51.49727733909, -0.14330974852],[51.5006077549, -0.1401054834],[51.50091932142, -0.13990549282],[51.50147489936, -0.1397820127],[51.50193482076, -0.13986414345],[51.50245208783, -0.14016007014],[51.50481785115, -0.14190814436],[51.50537083204, -0.14218824983],[51.50584019469, -0.14229884617],[51.50654991783, -0.14225556992],[51.50654991783, -0.14225556992],[51.51411399569, -0.14177489497],[51.51434856288, -0.14182299862],[51.51451123638, -0.14187402837],[51.51574948842, -0.1422704349]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPCO",
+                                "name": "Pimlico Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPCO"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUVIC",
+                                "name": "Victoria Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUVIC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUGPK",
+                                "name": "Green Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUGPK"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUOXC",
+                                "name": "Oxford Circus Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUOXC"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Walthamstow Central Underground Station",
+                                "Seven Sisters Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "victoria",
+                                "name": "Victoria",
+                                "type": "Line",
+                                "uri": "/Line/victoria"
+                            },
+                            "name": "Victoria"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:37:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51570432674,
+                        "lon": -0.14225785957999998,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:27:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 10,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Bakerloo line towards Queen's Park, or Harrow & Wealdstone",
+                        "steps": [],
+                        "summary": "Bakerloo line to Warwick Avenue"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.51570432674, -0.14225785958],[51.51593036326, -0.14233514002],[51.51657047273, -0.14243881392],[51.51737667649, -0.14280958663],[51.51782249856, -0.14313737491],[51.51830303065, -0.14395382134],[51.51865045154, -0.14431445438],[51.5189773915, -0.14451737292],[51.52096927735, -0.14537335361],[51.52314180209, -0.14627973139],[51.52314180209, -0.14627973139],[51.5243187257, -0.14677972495],[51.52461221792, -0.14714261487],[51.52492777755, -0.14776409662],[51.52517303197, -0.14848934944],[51.52523672885, -0.1491066454],[51.52518314046, -0.14969986588],[51.5240851542, -0.15535197989],[51.52391515898, -0.15597871104],[51.52327972637, -0.157316162],[51.52324536338, -0.15741845532],[51.52324536338, -0.15741845532],[51.52305625224, -0.15797386283],[51.52291410767, -0.15865710652],[51.52266552764, -0.16000772658],[51.52253303556, -0.16073381374],[51.52242727353, -0.16144440514],[51.5223082731, -0.16245823819],[51.52212613066, -0.16346019131],[51.52212613066, -0.16346019131],[51.52207649495, -0.16373606912],[51.52194107864, -0.16485145122],[51.52186878464, -0.16597870522],[51.5217270433, -0.16669071854],[51.52160775641, -0.16711353337],[51.5212984083, -0.16803406925],[51.52046108673, -0.17027305254],[51.52046108673, -0.17027305254],[51.52035751374, -0.17055107406],[51.52017350772, -0.17086114537],[51.51991625844, -0.17108766371],[51.51735004627, -0.17260296279],[51.51698674595, -0.17294900616],[51.51616508078, -0.17446641379],[51.51607857456, -0.17468606549],[51.51605520017, -0.1749176057],[51.51608440196, -0.17506056715],[51.51619672627, -0.17534433577],[51.51633444223, -0.17552620059],[51.51633444223, -0.17552620059],[51.51708816538, -0.1765770709],[51.51737123687, -0.17685403128],[51.51981574732, -0.17907707305],[51.52025449678, -0.17953524079],[51.52294528299, -0.18314700977]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLURGP",
+                                "name": "Regent's Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLURGP"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUBST",
+                                "name": "Baker Street Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUBST"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUMYB",
+                                "name": "Marylebone Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUMYB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUERB",
+                                "name": "Edgware Road (Bakerloo) Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUERB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPAC",
+                                "name": "Paddington Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPAC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUWKA",
+                                "name": "Warwick Avenue Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUWKA"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Queen's Park Underground Station",
+                                "Harrow & Wealdstone Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "bakerloo",
+                                "name": "Bakerloo",
+                                "type": "Line",
+                                "uri": "/Line/bakerloo"
+                            },
+                            "name": "Bakerloo"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Royal Oak (London), Royal Oak Underground Station",
+                        "icsCode": "1000196",
+                        "lat": 51.51993069796,
+                        "lon": -0.18940737495999999,
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:52:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:37:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "PlannedWork",
+                            "categoryDescription": "PlannedWork",
+                            "created": "2018-01-03T09:27:00",
+                            "description": "HAMMERSMITH & CITY LINE: Saturday 17 and Sunday 18 February, no service between Hammersmith and Baker Street. A reduced service will operate on the rest of the line.",
+                            "lastUpdate": "2018-02-12T09:11:00",
+                            "summary": "",
+                            "type": "routeBlocking"
+                        }
+                    ],
+                    "distance": 711.0,
+                    "duration": 15,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Walk to Royal Oak (London), Royal Oak Underground Station",
+                        "steps": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 16,
+                                "cumulativeTravelTime": 13,
+                                "description": "Warwick Avenue for 16 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 16,
+                                "latitude": 51.52321097048,
+                                "longitude": -0.18404458665,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 310,
+                                "skyDirectionDescription": "NorthWest",
+                                "streetName": "Warwick Avenue",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 110,
+                                "cumulativeTravelTime": 98,
+                                "description": "on to Clifton Villas, continue for 94 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 94,
+                                "latitude": 51.52330351576,
+                                "longitude": -0.18421388662000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 214,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Clifton Villas",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 260,
+                                "cumulativeTravelTime": 231,
+                                "description": "on to Bristol Gardens, continue for 150 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 150,
+                                "latitude": 51.52261435332,
+                                "longitude": -0.18500529034000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 298,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bristol Gardens",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 331,
+                                "cumulativeTravelTime": 294,
+                                "description": "on to Formosa Street, continue for 71 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 71,
+                                "latitude": 51.5232995843,
+                                "longitude": -0.18686642695,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 213,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Formosa Street",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 389,
+                                "cumulativeTravelTime": 345,
+                                "description": "for 58 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 58,
+                                "latitude": 51.522778261469995,
+                                "longitude": -0.18746373219,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 490,
+                                "cumulativeTravelTime": 437,
+                                "description": "on to Lord Hills Road, continue for 101 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 101,
+                                "latitude": 51.52230707372,
+                                "longitude": -0.18781398178,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Lord Hills Road",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 536,
+                                "cumulativeTravelTime": 478,
+                                "description": "for 46 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 46,
+                                "latitude": 51.52152423474,
+                                "longitude": -0.18836398256,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 539,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 540,
+                                "cumulativeTravelTime": 481,
+                                "description": "on to Bourne Terrace, continue for 4 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 4,
+                                "latitude": 51.52111061333,
+                                "longitude": -0.18836598243,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 270,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bourne Terrace",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 696,
+                                "cumulativeTravelTime": 620,
+                                "description": "for 156 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 156,
+                                "latitude": 51.52111150327,
+                                "longitude": -0.18842360485,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 194,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 711,
+                                "cumulativeTravelTime": 630,
+                                "description": "on to Harrow Road, continue for 15 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 15,
+                                "latitude": 51.519820408639994,
+                                "longitude": -0.18925319472,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 287,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Harrow Road",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            }
+                        ],
+                        "summary": "Walk to Royal Oak (London), Royal Oak Underground Station"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "walking",
+                        "name": "walking",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "ESCALATOR"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "STAIRS"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.52296281052, -0.18311748209],[51.52317709509, -0.18359906635],[51.52313164944, -0.18414864775],[51.52313164944, -0.18414864775],[51.52321097048, -0.18404458665],[51.52330351576, -0.18421388662],[51.52261435332, -0.18500529034],[51.52309363168, -0.18634125005],[51.5232995843, -0.18686642695],[51.52301667862, -0.18718037973],[51.52284882121, -0.18737444061],[51.52277826147, -0.18746373219],[51.52277826147, -0.18746373219],[51.52255625942, -0.18764552573],[51.52239649788, -0.18778160213],[51.52230707372, -0.18781398178],[51.52230707372, -0.18781398178],[51.52194306043, -0.18811672618],[51.52191854727, -0.18827626071],[51.52165837124, -0.18831541553],[51.52152423474, -0.18836398256],[51.52152423474, -0.18836398256],[51.52111061333, -0.18836598243],[51.52111061333, -0.18836598243],[51.52111150327, -0.18842360485],[51.52111150327, -0.18842360485],[51.52065606171, -0.18862906363],[51.5202100515, -0.18886297233],[51.52004174625, -0.18902820435],[51.51982040864, -0.18925319472],[51.51985924714, -0.18943903674],[51.51993069796, -0.18940737496]]",
+                        "stopPoints": []
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                ""
+                            ],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "startDateTime": "2018-02-18T10:17:00"
+        },
+        {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+            "arrivalDateTime": "2018-02-18T10:56:00",
+            "duration": 34,
+            "legs": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51574948842,
+                        "lon": -0.1422704349,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:28:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Vauxhall Underground Station",
+                        "icsCode": "1000247",
+                        "lat": 51.48621419895,
+                        "lon": -0.12451608005999999,
+                        "naptanId": "940GZZLUVXL",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:22:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:18:00",
+                            "description": "Please take extra care and hold the handrail. Please use the lift if travelling with luggage, buggies etc.",
+                            "lastUpdate": "2017-09-27T12:19:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 6,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Victoria line towards Walthamstow Central, or Seven Sisters",
+                        "steps": [],
+                        "summary": "Victoria line to Oxford Circus"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "LEVEL",
+                            "position": "AFTER",
+                            "stopId": 1000173,
+                            "type": "WALKWAY"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.48621419895, -0.12451608006],[51.4863561349, -0.12495676701],[51.48806208944, -0.12873267836],[51.48856734853, -0.12996516261],[51.48877882606, -0.13082076959],[51.48892670249, -0.13163577123],[51.48904046048, -0.13256740753],[51.48911986812, -0.13360128227],[51.48919886345, -0.13404459449],[51.48919886345, -0.13404459449],[51.48930687823, -0.13461636412],[51.48952730886, -0.13547164062],[51.49009396578, -0.13717709049],[51.49040515953, -0.13808631511],[51.49110595682, -0.14088115285],[51.49130540311, -0.14155007924],[51.49200586237, -0.14319261125],[51.49269969367, -0.14441770134],[51.49325005917, -0.14510123285],[51.49393021384, -0.14546258356],[51.4943362117, -0.1455469483],[51.49473140144, -0.1455165036],[51.49516856502, -0.14529707255],[51.49710909825, -0.14347506163],[51.49710909825, -0.14347506163],[51.49727733909, -0.14330974852],[51.5006077549, -0.1401054834],[51.50091932142, -0.13990549282],[51.50147489936, -0.1397820127],[51.50193482076, -0.13986414345],[51.50245208783, -0.14016007014],[51.50481785115, -0.14190814436],[51.50537083204, -0.14218824983],[51.50584019469, -0.14229884617],[51.50654991783, -0.14225556992],[51.50654991783, -0.14225556992],[51.51411399569, -0.14177489497],[51.51434856288, -0.14182299862],[51.51451123638, -0.14187402837],[51.51574948842, -0.1422704349]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPCO",
+                                "name": "Pimlico Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPCO"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUVIC",
+                                "name": "Victoria Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUVIC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUGPK",
+                                "name": "Green Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUGPK"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUOXC",
+                                "name": "Oxford Circus Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUOXC"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Walthamstow Central Underground Station",
+                                "Seven Sisters Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "victoria",
+                                "name": "Victoria",
+                                "type": "Line",
+                                "uri": "/Line/victoria"
+                            },
+                            "name": "Victoria"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:41:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51570432674,
+                        "lon": -0.14225785957999998,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:31:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 10,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Bakerloo line towards Queen's Park, or Harrow & Wealdstone",
+                        "steps": [],
+                        "summary": "Bakerloo line to Warwick Avenue"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.51570432674, -0.14225785958],[51.51593036326, -0.14233514002],[51.51657047273, -0.14243881392],[51.51737667649, -0.14280958663],[51.51782249856, -0.14313737491],[51.51830303065, -0.14395382134],[51.51865045154, -0.14431445438],[51.5189773915, -0.14451737292],[51.52096927735, -0.14537335361],[51.52314180209, -0.14627973139],[51.52314180209, -0.14627973139],[51.5243187257, -0.14677972495],[51.52461221792, -0.14714261487],[51.52492777755, -0.14776409662],[51.52517303197, -0.14848934944],[51.52523672885, -0.1491066454],[51.52518314046, -0.14969986588],[51.5240851542, -0.15535197989],[51.52391515898, -0.15597871104],[51.52327972637, -0.157316162],[51.52324536338, -0.15741845532],[51.52324536338, -0.15741845532],[51.52305625224, -0.15797386283],[51.52291410767, -0.15865710652],[51.52266552764, -0.16000772658],[51.52253303556, -0.16073381374],[51.52242727353, -0.16144440514],[51.5223082731, -0.16245823819],[51.52212613066, -0.16346019131],[51.52212613066, -0.16346019131],[51.52207649495, -0.16373606912],[51.52194107864, -0.16485145122],[51.52186878464, -0.16597870522],[51.5217270433, -0.16669071854],[51.52160775641, -0.16711353337],[51.5212984083, -0.16803406925],[51.52046108673, -0.17027305254],[51.52046108673, -0.17027305254],[51.52035751374, -0.17055107406],[51.52017350772, -0.17086114537],[51.51991625844, -0.17108766371],[51.51735004627, -0.17260296279],[51.51698674595, -0.17294900616],[51.51616508078, -0.17446641379],[51.51607857456, -0.17468606549],[51.51605520017, -0.1749176057],[51.51608440196, -0.17506056715],[51.51619672627, -0.17534433577],[51.51633444223, -0.17552620059],[51.51633444223, -0.17552620059],[51.51708816538, -0.1765770709],[51.51737123687, -0.17685403128],[51.51981574732, -0.17907707305],[51.52025449678, -0.17953524079],[51.52294528299, -0.18314700977]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLURGP",
+                                "name": "Regent's Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLURGP"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUBST",
+                                "name": "Baker Street Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUBST"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUMYB",
+                                "name": "Marylebone Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUMYB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUERB",
+                                "name": "Edgware Road (Bakerloo) Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUERB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPAC",
+                                "name": "Paddington Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPAC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUWKA",
+                                "name": "Warwick Avenue Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUWKA"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Queen's Park Underground Station",
+                                "Harrow & Wealdstone Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "bakerloo",
+                                "name": "Bakerloo",
+                                "type": "Line",
+                                "uri": "/Line/bakerloo"
+                            },
+                            "name": "Bakerloo"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Royal Oak (London), Royal Oak Underground Station",
+                        "icsCode": "1000196",
+                        "lat": 51.51993069796,
+                        "lon": -0.18940737495999999,
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:56:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:41:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "PlannedWork",
+                            "categoryDescription": "PlannedWork",
+                            "created": "2018-01-03T09:27:00",
+                            "description": "HAMMERSMITH & CITY LINE: Saturday 17 and Sunday 18 February, no service between Hammersmith and Baker Street. A reduced service will operate on the rest of the line.",
+                            "lastUpdate": "2018-02-12T09:11:00",
+                            "summary": "",
+                            "type": "routeBlocking"
+                        }
+                    ],
+                    "distance": 711.0,
+                    "duration": 15,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Walk to Royal Oak (London), Royal Oak Underground Station",
+                        "steps": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 16,
+                                "cumulativeTravelTime": 13,
+                                "description": "Warwick Avenue for 16 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 16,
+                                "latitude": 51.52321097048,
+                                "longitude": -0.18404458665,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 310,
+                                "skyDirectionDescription": "NorthWest",
+                                "streetName": "Warwick Avenue",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 110,
+                                "cumulativeTravelTime": 98,
+                                "description": "on to Clifton Villas, continue for 94 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 94,
+                                "latitude": 51.52330351576,
+                                "longitude": -0.18421388662000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 214,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Clifton Villas",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 260,
+                                "cumulativeTravelTime": 231,
+                                "description": "on to Bristol Gardens, continue for 150 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 150,
+                                "latitude": 51.52261435332,
+                                "longitude": -0.18500529034000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 298,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bristol Gardens",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 331,
+                                "cumulativeTravelTime": 294,
+                                "description": "on to Formosa Street, continue for 71 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 71,
+                                "latitude": 51.5232995843,
+                                "longitude": -0.18686642695,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 213,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Formosa Street",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 389,
+                                "cumulativeTravelTime": 345,
+                                "description": "for 58 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 58,
+                                "latitude": 51.522778261469995,
+                                "longitude": -0.18746373219,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 490,
+                                "cumulativeTravelTime": 437,
+                                "description": "on to Lord Hills Road, continue for 101 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 101,
+                                "latitude": 51.52230707372,
+                                "longitude": -0.18781398178,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Lord Hills Road",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 536,
+                                "cumulativeTravelTime": 478,
+                                "description": "for 46 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 46,
+                                "latitude": 51.52152423474,
+                                "longitude": -0.18836398256,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 539,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 540,
+                                "cumulativeTravelTime": 481,
+                                "description": "on to Bourne Terrace, continue for 4 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 4,
+                                "latitude": 51.52111061333,
+                                "longitude": -0.18836598243,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 270,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bourne Terrace",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 696,
+                                "cumulativeTravelTime": 620,
+                                "description": "for 156 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 156,
+                                "latitude": 51.52111150327,
+                                "longitude": -0.18842360485,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 194,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 711,
+                                "cumulativeTravelTime": 630,
+                                "description": "on to Harrow Road, continue for 15 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 15,
+                                "latitude": 51.519820408639994,
+                                "longitude": -0.18925319472,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 287,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Harrow Road",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            }
+                        ],
+                        "summary": "Walk to Royal Oak (London), Royal Oak Underground Station"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "walking",
+                        "name": "walking",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "ESCALATOR"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "STAIRS"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.52296281052, -0.18311748209],[51.52317709509, -0.18359906635],[51.52313164944, -0.18414864775],[51.52313164944, -0.18414864775],[51.52321097048, -0.18404458665],[51.52330351576, -0.18421388662],[51.52261435332, -0.18500529034],[51.52309363168, -0.18634125005],[51.5232995843, -0.18686642695],[51.52301667862, -0.18718037973],[51.52284882121, -0.18737444061],[51.52277826147, -0.18746373219],[51.52277826147, -0.18746373219],[51.52255625942, -0.18764552573],[51.52239649788, -0.18778160213],[51.52230707372, -0.18781398178],[51.52230707372, -0.18781398178],[51.52194306043, -0.18811672618],[51.52191854727, -0.18827626071],[51.52165837124, -0.18831541553],[51.52152423474, -0.18836398256],[51.52152423474, -0.18836398256],[51.52111061333, -0.18836598243],[51.52111061333, -0.18836598243],[51.52111150327, -0.18842360485],[51.52111150327, -0.18842360485],[51.52065606171, -0.18862906363],[51.5202100515, -0.18886297233],[51.52004174625, -0.18902820435],[51.51982040864, -0.18925319472],[51.51985924714, -0.18943903674],[51.51993069796, -0.18940737496]]",
+                        "stopPoints": []
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                ""
+                            ],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "startDateTime": "2018-02-18T10:22:00"
+        },
+        {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+            "arrivalDateTime": "2018-02-18T11:00:00",
+            "duration": 34,
+            "legs": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51574948842,
+                        "lon": -0.1422704349,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:33:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Vauxhall Underground Station",
+                        "icsCode": "1000247",
+                        "lat": 51.48621419895,
+                        "lon": -0.12451608005999999,
+                        "naptanId": "940GZZLUVXL",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:26:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:18:00",
+                            "description": "Please take extra care and hold the handrail. Please use the lift if travelling with luggage, buggies etc.",
+                            "lastUpdate": "2017-09-27T12:19:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 7,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Victoria line towards Walthamstow Central, or Seven Sisters",
+                        "steps": [],
+                        "summary": "Victoria line to Oxford Circus"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "LEVEL",
+                            "position": "AFTER",
+                            "stopId": 1000173,
+                            "type": "WALKWAY"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.48621419895, -0.12451608006],[51.4863561349, -0.12495676701],[51.48806208944, -0.12873267836],[51.48856734853, -0.12996516261],[51.48877882606, -0.13082076959],[51.48892670249, -0.13163577123],[51.48904046048, -0.13256740753],[51.48911986812, -0.13360128227],[51.48919886345, -0.13404459449],[51.48919886345, -0.13404459449],[51.48930687823, -0.13461636412],[51.48952730886, -0.13547164062],[51.49009396578, -0.13717709049],[51.49040515953, -0.13808631511],[51.49110595682, -0.14088115285],[51.49130540311, -0.14155007924],[51.49200586237, -0.14319261125],[51.49269969367, -0.14441770134],[51.49325005917, -0.14510123285],[51.49393021384, -0.14546258356],[51.4943362117, -0.1455469483],[51.49473140144, -0.1455165036],[51.49516856502, -0.14529707255],[51.49710909825, -0.14347506163],[51.49710909825, -0.14347506163],[51.49727733909, -0.14330974852],[51.5006077549, -0.1401054834],[51.50091932142, -0.13990549282],[51.50147489936, -0.1397820127],[51.50193482076, -0.13986414345],[51.50245208783, -0.14016007014],[51.50481785115, -0.14190814436],[51.50537083204, -0.14218824983],[51.50584019469, -0.14229884617],[51.50654991783, -0.14225556992],[51.50654991783, -0.14225556992],[51.51411399569, -0.14177489497],[51.51434856288, -0.14182299862],[51.51451123638, -0.14187402837],[51.51574948842, -0.1422704349]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPCO",
+                                "name": "Pimlico Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPCO"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUVIC",
+                                "name": "Victoria Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUVIC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUGPK",
+                                "name": "Green Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUGPK"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUOXC",
+                                "name": "Oxford Circus Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUOXC"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Walthamstow Central Underground Station",
+                                "Seven Sisters Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "victoria",
+                                "name": "Victoria",
+                                "type": "Line",
+                                "uri": "/Line/victoria"
+                            },
+                            "name": "Victoria"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T10:45:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Oxford Circus Underground Station",
+                        "icsCode": "1000173",
+                        "lat": 51.51570432674,
+                        "lon": -0.14225785957999998,
+                        "naptanId": "940GZZLUOXC",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:35:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2012-06-12T22:24:00",
+                            "description": "A ramp is provided at this station providing step-free interchange between northbound Bakerloo and northbound Victoria line trains, and between southbound Bakerloo and southbound Victoria line trains. Please ask staff in the ticket hall at the start of your journey to ensure the ramp will be available when you arrive at your destination.",
+                            "lastUpdate": "2017-10-09T10:22:00",
+                            "summary": "Oxford Circus - step-free access ramps available between Central and Victoria lines",
+                            "type": "stopInfo"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "Information",
+                            "categoryDescription": "Information",
+                            "created": "2017-09-27T12:21:00",
+                            "description": "Please take extra care and hold the handrail especially when travelling with luggage, buggies or during rush hour.",
+                            "lastUpdate": "2017-09-27T12:21:00",
+                            "summary": "Escalator and stair accident hotspot",
+                            "type": "stopInfo"
+                        }
+                    ],
+                    "duration": 10,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Bakerloo line towards Harrow & Wealdstone, or Queen's Park",
+                        "steps": [],
+                        "summary": "Bakerloo line to Warwick Avenue"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "tube",
+                        "name": "tube",
+                        "type": "Mode"
+                    },
+                    "obstacles": [],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.51570432674, -0.14225785958],[51.51593036326, -0.14233514002],[51.51657047273, -0.14243881392],[51.51737667649, -0.14280958663],[51.51782249856, -0.14313737491],[51.51830303065, -0.14395382134],[51.51865045154, -0.14431445438],[51.5189773915, -0.14451737292],[51.52096927735, -0.14537335361],[51.52314180209, -0.14627973139],[51.52314180209, -0.14627973139],[51.5243187257, -0.14677972495],[51.52461221792, -0.14714261487],[51.52492777755, -0.14776409662],[51.52517303197, -0.14848934944],[51.52523672885, -0.1491066454],[51.52518314046, -0.14969986588],[51.5240851542, -0.15535197989],[51.52391515898, -0.15597871104],[51.52327972637, -0.157316162],[51.52324536338, -0.15741845532],[51.52324536338, -0.15741845532],[51.52305625224, -0.15797386283],[51.52291410767, -0.15865710652],[51.52266552764, -0.16000772658],[51.52253303556, -0.16073381374],[51.52242727353, -0.16144440514],[51.5223082731, -0.16245823819],[51.52212613066, -0.16346019131],[51.52212613066, -0.16346019131],[51.52207649495, -0.16373606912],[51.52194107864, -0.16485145122],[51.52186878464, -0.16597870522],[51.5217270433, -0.16669071854],[51.52160775641, -0.16711353337],[51.5212984083, -0.16803406925],[51.52046108673, -0.17027305254],[51.52046108673, -0.17027305254],[51.52035751374, -0.17055107406],[51.52017350772, -0.17086114537],[51.51991625844, -0.17108766371],[51.51735004627, -0.17260296279],[51.51698674595, -0.17294900616],[51.51616508078, -0.17446641379],[51.51607857456, -0.17468606549],[51.51605520017, -0.1749176057],[51.51608440196, -0.17506056715],[51.51619672627, -0.17534433577],[51.51633444223, -0.17552620059],[51.51633444223, -0.17552620059],[51.51708816538, -0.1765770709],[51.51737123687, -0.17685403128],[51.51981574732, -0.17907707305],[51.52025449678, -0.17953524079],[51.52294528299, -0.18314700977]]",
+                        "stopPoints": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLURGP",
+                                "name": "Regent's Park Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLURGP"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUBST",
+                                "name": "Baker Street Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUBST"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUMYB",
+                                "name": "Marylebone Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUMYB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUERB",
+                                "name": "Edgware Road (Bakerloo) Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUERB"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUPAC",
+                                "name": "Paddington Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUPAC"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "id": "940GZZLUWKA",
+                                "name": "Warwick Avenue Underground Station",
+                                "type": "StopPoint",
+                                "uri": "/StopPoint/940GZZLUWKA"
+                            }
+                        ]
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                "Harrow & Wealdstone Underground Station",
+                                "Queen's Park Underground Station"
+                            ],
+                            "lineIdentifier": {
+                                "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                                "crowding": {
+                                    "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+                                },
+                                "id": "bakerloo",
+                                "name": "Bakerloo",
+                                "type": "Line",
+                                "uri": "/Line/bakerloo"
+                            },
+                            "name": "Bakerloo"
+                        }
+                    ]
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Royal Oak (London), Royal Oak Underground Station",
+                        "icsCode": "1000196",
+                        "lat": 51.51993069796,
+                        "lon": -0.18940737495999999,
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T11:00:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Warwick Avenue Underground Station",
+                        "icsCode": "1000253",
+                        "lat": 51.52296281052,
+                        "lon": -0.18311748209,
+                        "naptanId": "940GZZLUWKA",
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:45:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "PlannedWork",
+                            "categoryDescription": "PlannedWork",
+                            "created": "2018-01-03T09:27:00",
+                            "description": "HAMMERSMITH & CITY LINE: Saturday 17 and Sunday 18 February, no service between Hammersmith and Baker Street. A reduced service will operate on the rest of the line.",
+                            "lastUpdate": "2018-02-12T09:11:00",
+                            "summary": "",
+                            "type": "routeBlocking"
+                        }
+                    ],
+                    "distance": 711.0,
+                    "duration": 15,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Walk to Royal Oak (London), Royal Oak Underground Station",
+                        "steps": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 16,
+                                "cumulativeTravelTime": 13,
+                                "description": "Warwick Avenue for 16 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 16,
+                                "latitude": 51.52321097048,
+                                "longitude": -0.18404458665,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 310,
+                                "skyDirectionDescription": "NorthWest",
+                                "streetName": "Warwick Avenue",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 110,
+                                "cumulativeTravelTime": 98,
+                                "description": "on to Clifton Villas, continue for 94 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 94,
+                                "latitude": 51.52330351576,
+                                "longitude": -0.18421388662000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 214,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Clifton Villas",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 260,
+                                "cumulativeTravelTime": 231,
+                                "description": "on to Bristol Gardens, continue for 150 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 150,
+                                "latitude": 51.52261435332,
+                                "longitude": -0.18500529034000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 298,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bristol Gardens",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 331,
+                                "cumulativeTravelTime": 294,
+                                "description": "on to Formosa Street, continue for 71 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 71,
+                                "latitude": 51.5232995843,
+                                "longitude": -0.18686642695,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 213,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Formosa Street",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 389,
+                                "cumulativeTravelTime": 345,
+                                "description": "for 58 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 58,
+                                "latitude": 51.522778261469995,
+                                "longitude": -0.18746373219,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 490,
+                                "cumulativeTravelTime": 437,
+                                "description": "on to Lord Hills Road, continue for 101 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 101,
+                                "latitude": 51.52230707372,
+                                "longitude": -0.18781398178,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 206,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Lord Hills Road",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 536,
+                                "cumulativeTravelTime": 478,
+                                "description": "for 46 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 46,
+                                "latitude": 51.52152423474,
+                                "longitude": -0.18836398256,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 539,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 540,
+                                "cumulativeTravelTime": 481,
+                                "description": "on to Bourne Terrace, continue for 4 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 4,
+                                "latitude": 51.52111061333,
+                                "longitude": -0.18836598243,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 270,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bourne Terrace",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 696,
+                                "cumulativeTravelTime": 620,
+                                "description": "for 156 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 156,
+                                "latitude": 51.52111150327,
+                                "longitude": -0.18842360485,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 194,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 711,
+                                "cumulativeTravelTime": 630,
+                                "description": "on to Harrow Road, continue for 15 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 15,
+                                "latitude": 51.519820408639994,
+                                "longitude": -0.18925319472,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 287,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Harrow Road",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            }
+                        ],
+                        "summary": "Walk to Royal Oak (London), Royal Oak Underground Station"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "walking",
+                        "name": "walking",
+                        "type": "Mode"
+                    },
+                    "obstacles": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "ESCALATOR"
+                        },
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Obstacle, Tfl.Api.Presentation.Entities",
+                            "incline": "UP",
+                            "position": "BEFORE",
+                            "stopId": 1000253,
+                            "type": "STAIRS"
+                        }
+                    ],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.52296281052, -0.18311748209],[51.52317709509, -0.18359906635],[51.52313164944, -0.18414864775],[51.52313164944, -0.18414864775],[51.52321097048, -0.18404458665],[51.52330351576, -0.18421388662],[51.52261435332, -0.18500529034],[51.52309363168, -0.18634125005],[51.5232995843, -0.18686642695],[51.52301667862, -0.18718037973],[51.52284882121, -0.18737444061],[51.52277826147, -0.18746373219],[51.52277826147, -0.18746373219],[51.52255625942, -0.18764552573],[51.52239649788, -0.18778160213],[51.52230707372, -0.18781398178],[51.52230707372, -0.18781398178],[51.52194306043, -0.18811672618],[51.52191854727, -0.18827626071],[51.52165837124, -0.18831541553],[51.52152423474, -0.18836398256],[51.52152423474, -0.18836398256],[51.52111061333, -0.18836598243],[51.52111061333, -0.18836598243],[51.52111150327, -0.18842360485],[51.52111150327, -0.18842360485],[51.52065606171, -0.18862906363],[51.5202100515, -0.18886297233],[51.52004174625, -0.18902820435],[51.51982040864, -0.18925319472],[51.51985924714, -0.18943903674],[51.51993069796, -0.18940737496]]",
+                        "stopPoints": []
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                ""
+                            ],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "startDateTime": "2018-02-18T10:26:00"
+        },
+        {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Journey, Tfl.Api.Presentation.Entities",
+            "arrivalDateTime": "2018-02-18T11:50:00",
+            "duration": 90,
+            "legs": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Leg, Tfl.Api.Presentation.Entities",
+                    "arrivalPoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Royal Oak Underground Station",
+                        "icsCode": "1000196",
+                        "lat": 51.51798894305,
+                        "lon": -0.18886460186,
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "arrivalTime": "2018-02-18T11:50:00",
+                    "departurePoint": {
+                        "$type": "Tfl.Api.Presentation.Entities.StopPoint, Tfl.Api.Presentation.Entities",
+                        "additionalProperties": [],
+                        "commonName": "Vauxhall Underground Station",
+                        "icsCode": "1000247",
+                        "lat": 51.486814685039995,
+                        "lon": -0.12495235933000001,
+                        "placeType": "StopPoint",
+                        "platformName": ""
+                    },
+                    "departureTime": "2018-02-18T10:20:00",
+                    "disruptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+                            "additionalInfo": "",
+                            "category": "PlannedWork",
+                            "categoryDescription": "PlannedWork",
+                            "created": "2018-01-03T09:27:00",
+                            "description": "HAMMERSMITH & CITY LINE: Saturday 17 and Sunday 18 February, no service between Hammersmith and Baker Street. A reduced service will operate on the rest of the line.",
+                            "lastUpdate": "2018-02-12T09:11:00",
+                            "summary": "",
+                            "type": "routeBlocking"
+                        }
+                    ],
+                    "distance": 6075.0,
+                    "duration": 90,
+                    "hasFixedLocations": true,
+                    "instruction": {
+                        "$type": "Tfl.Api.Presentation.Entities.Instruction, Tfl.Api.Presentation.Entities",
+                        "detailed": "Walk to Royal Oak Underground Station",
+                        "steps": [
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 61,
+                                "cumulativeTravelTime": 53,
+                                "description": "Bridgefoot for 61 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 61,
+                                "latitude": 51.48675246887,
+                                "longitude": -0.12499812279,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 295,
+                                "skyDirectionDescription": "NorthWest",
+                                "streetName": "Bridgefoot",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 379,
+                                "cumulativeTravelTime": 335,
+                                "description": "on to Vauxhall Bridge, continue for 318 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 318,
+                                "latitude": 51.487043251719996,
+                                "longitude": -0.12574959511,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 304,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Vauxhall Bridge",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 553,
+                                "cumulativeTravelTime": 489,
+                                "description": "on to Bessborough Gardens, continue for 174 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 174,
+                                "latitude": 51.4886768287,
+                                "longitude": -0.12949974537,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 304,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bessborough Gardens",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 1681,
+                                "cumulativeTravelTime": 1489,
+                                "description": "on to Vauxhall Bridge Road, continue for 1128 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 1128,
+                                "latitude": 51.48961707255,
+                                "longitude": -0.13150671574,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 305,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Vauxhall Bridge Road",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 1720,
+                                "cumulativeTravelTime": 1524,
+                                "description": "on to Terminus Place, continue for 39 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 39,
+                                "latitude": 51.4961687782,
+                                "longitude": -0.14315310289000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 271,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Terminus Place",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 1770,
+                                "cumulativeTravelTime": 1568,
+                                "description": "on to Victoria Arcade, continue for 50 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 50,
+                                "latitude": 51.49618665416,
+                                "longitude": -0.14371423562,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 371,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Victoria Arcade",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 1850,
+                                "cumulativeTravelTime": 1640,
+                                "description": "on to Victoria Street, continue for 80 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 80,
+                                "latitude": 51.49663576361,
+                                "longitude": -0.14368158275,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 278,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Victoria Street",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 1965,
+                                "cumulativeTravelTime": 1741,
+                                "description": "on to Grosvenor Gardens, continue for 115 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 115,
+                                "latitude": 51.49674385744,
+                                "longitude": -0.14482973670000002,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 291,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Grosvenor Gardens",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 2704,
+                                "cumulativeTravelTime": 2402,
+                                "description": "on to Grosvenor Place, continue for 739 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 739,
+                                "latitude": 51.49722563196,
+                                "longitude": -0.14629409278,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 334,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Grosvenor Place",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 2832,
+                                "cumulativeTravelTime": 2516,
+                                "description": "for 128 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 128,
+                                "latitude": 51.50267922561,
+                                "longitude": -0.15225412169,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 354,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 2848,
+                                "cumulativeTravelTime": 2531,
+                                "description": "on to South Carriage Drive, continue for 16 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 16,
+                                "latitude": 51.50368424405001,
+                                "longitude": -0.15268896526,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 374,
+                                "skyDirectionDescription": "North",
+                                "streetName": "South Carriage Drive",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4423,
+                                "cumulativeTravelTime": 3935,
+                                "description": "for 1575 metres",
+                                "descriptionHeading": "Take a slight left",
+                                "distance": 1575,
+                                "latitude": 51.50382712527,
+                                "longitude": -0.15262555082,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 311,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4498,
+                                "cumulativeTravelTime": 4001,
+                                "description": "on to North Ride, continue for 75 metres",
+                                "descriptionHeading": "Take a slight left",
+                                "distance": 75,
+                                "latitude": 51.51146277483,
+                                "longitude": -0.17105154144,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 265,
+                                "skyDirectionDescription": "North",
+                                "streetName": "North Ride",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4539,
+                                "cumulativeTravelTime": 4031,
+                                "description": "for 41 metres",
+                                "descriptionHeading": "Continue along ",
+                                "distance": 41,
+                                "latitude": 51.511416705710005,
+                                "longitude": -0.17213424164,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 259,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "STRAIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4576,
+                                "cumulativeTravelTime": 4065,
+                                "description": "on to West Carriage Drive, continue for 37 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 37,
+                                "latitude": 51.51135378744,
+                                "longitude": -0.17271321523,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 346,
+                                "skyDirectionDescription": "North",
+                                "streetName": "West Carriage Drive",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4655,
+                                "cumulativeTravelTime": 4137,
+                                "description": "on to North Walk, continue for 79 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 79,
+                                "latitude": 51.51143084272,
+                                "longitude": -0.17304159427,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 276,
+                                "skyDirectionDescription": "North",
+                                "streetName": "North Walk",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4687,
+                                "cumulativeTravelTime": 4166,
+                                "description": "for 32 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 32,
+                                "latitude": 51.51152045518,
+                                "longitude": -0.17417651225,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 342,
+                                "skyDirectionDescription": "North",
+                                "streetName": "",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4780,
+                                "cumulativeTravelTime": 4247,
+                                "description": "on to Bayswater Road, continue for 93 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 93,
+                                "latitude": 51.51179230345,
+                                "longitude": -0.17430975842,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 260,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Bayswater Road",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 4852,
+                                "cumulativeTravelTime": 4313,
+                                "description": "on to Lancaster Terrace, continue for 72 metres",
+                                "descriptionHeading": "Take a slight right",
+                                "distance": 72,
+                                "latitude": 51.5116509332,
+                                "longitude": -0.17562685397,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 300,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Lancaster Terrace",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_RIGHT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 5864,
+                                "cumulativeTravelTime": 5218,
+                                "description": "on to Gloucester Terrace, continue for 1012 metres",
+                                "descriptionHeading": "Turn left",
+                                "distance": 1012,
+                                "latitude": 51.51218586357,
+                                "longitude": -0.17590812761,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 293,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Gloucester Terrace",
+                                "trackType": "None",
+                                "turnDirection": "LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 6039,
+                                "cumulativeTravelTime": 5374,
+                                "description": "on to Porchester Square, continue for 175 metres",
+                                "descriptionHeading": "Take a slight left",
+                                "distance": 175,
+                                "latitude": 51.51829127325,
+                                "longitude": -0.18631582488999998,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 246,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Porchester Square",
+                                "trackType": "None",
+                                "turnDirection": "SLIGHT_LEFT"
+                            },
+                            {
+                                "$type": "Tfl.Api.Presentation.Entities.InstructionStep, Tfl.Api.Presentation.Entities",
+                                "cumulativeDistance": 6075,
+                                "cumulativeTravelTime": 5405,
+                                "description": "on to Porchester Road, continue for 36 metres",
+                                "descriptionHeading": "Turn right",
+                                "distance": 36,
+                                "latitude": 51.51769780205,
+                                "longitude": -0.18864553731000003,
+                                "pathAttribute": {
+                                    "$type": "Tfl.Api.Presentation.Entities.PathAttribute, Tfl.Api.Presentation.Entities"
+                                },
+                                "skyDirection": 325,
+                                "skyDirectionDescription": "North",
+                                "streetName": "Porchester Road",
+                                "trackType": "None",
+                                "turnDirection": "RIGHT"
+                            }
+                        ],
+                        "summary": "Walk to Royal Oak Underground Station"
+                    },
+                    "isDisrupted": true,
+                    "mode": {
+                        "$type": "Tfl.Api.Presentation.Entities.Identifier, Tfl.Api.Presentation.Entities",
+                        "id": "walking",
+                        "name": "walking",
+                        "type": "Mode"
+                    },
+                    "obstacles": [],
+                    "path": {
+                        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.Path, Tfl.Api.Presentation.Entities",
+                        "elevation": [],
+                        "lineString": "[[51.48681468504, -0.12495235933],[51.48675246887, -0.12499812279],[51.48685661547, -0.12532513634],[51.48693173035, -0.12552370807],[51.48698749109, -0.12563665145],[51.48704325172, -0.12574959511],[51.4876402477, -0.12709349205],[51.48823768806, -0.12846621382],[51.48830266243, -0.12859319085],[51.48842431316, -0.12889069839],[51.4886768287, -0.12949974537],[51.48885400431, -0.12989581608],[51.48930097204, -0.13085703239],[51.48944957721, -0.13115345009],[51.48961707255, -0.13150671574],[51.48974747338, -0.13178947708],[51.48990598013, -0.13214311468],[51.49015710374, -0.13266582721],[51.4904356435, -0.13321623521],[51.49092797619, -0.13420447434],[51.4910772601, -0.13454410067],[51.49130026836, -0.13499596124],[51.49142098749, -0.1352359223],[51.49160713082, -0.13563167264],[51.49196029622, -0.13635193602],[51.49201604674, -0.13646490516],[51.4920902281, -0.13660593374],[51.49231322859, -0.13705781447],[51.49256433073, -0.13758058179],[51.49267651516, -0.13784971504],[51.49279745714, -0.13810408719],[51.4934956807, -0.13960265311],[51.49369033963, -0.13996928044],[51.49377396025, -0.14013874734],[51.49407988239, -0.14071694119],[51.49420797916, -0.14085578927],[51.49453720712, -0.14120254727],[51.49472866685, -0.14136763306],[51.49516733113, -0.14181079221],[51.49617580742, -0.14246129834],[51.49625919652, -0.14261638159],[51.49627967822, -0.14277402244],[51.49625568197, -0.14296228451],[51.4961687782, -0.14315310289],[51.49618665416, -0.14371423562],[51.49623136, -0.14369801271],[51.49663576361, -0.14368158275],[51.49671006363, -0.14439890457],[51.49674385744, -0.1448297367],[51.49683964611, -0.14520042545],[51.49694305434, -0.14548436519],[51.49716898032, -0.14612350782],[51.49722563196, -0.14629409278],[51.49804445233, -0.146894789],[51.49819006052, -0.14700414131],[51.49833589611, -0.14712789241],[51.49878216142, -0.14748438775],[51.49915653157, -0.14784380461],[51.49976955794, -0.14851052457],[51.499980345, -0.14876132298],[51.5006702586, -0.14974192945],[51.5015280559, -0.15110479366],[51.50161996663, -0.1512307489],[51.50202332844, -0.15171872122],[51.50225230929, -0.15198321897],[51.50244307369, -0.15210517911],[51.50267922561, -0.15225412169],[51.50293153606, -0.15228714216],[51.50306384215, -0.15212329372],[51.50318271217, -0.15224816465],[51.50359142749, -0.15250540229],[51.50368424405, -0.15268896526],[51.50382712527, -0.15262555082],[51.50408601266, -0.15307617254],[51.50441792618, -0.15359589344],[51.50461050245, -0.15383306689],[51.50513634697, -0.15467638038],[51.50553433215, -0.15539519006],[51.50594107341, -0.15609924894],[51.50642151542, -0.15691562485],[51.50660668225, -0.15725399071],[51.50685611304, -0.15767622692],[51.5074028435, -0.15870611504],[51.5077082243, -0.15925580353],[51.50793967443, -0.15967878512],[51.50900608818, -0.16116334373],[51.50910607209, -0.16123137151],[51.50964859414, -0.16371701795],[51.50990726931, -0.16530623117],[51.51042139535, -0.16770664084],[51.51075392897, -0.16884619477],[51.51128820626, -0.1708135397],[51.51146277483, -0.17105154144],[51.51143153694, -0.17193188832],[51.51141670571, -0.17213424164],[51.51135378744, -0.17271321523],[51.51149847488, -0.17276507148],[51.51143084272, -0.17304159427],[51.51152045518, -0.17417651225],[51.51179230345, -0.17430975842],[51.51173858546, -0.17490277742],[51.5116509332, -0.17562685397],[51.51176347996, -0.17592499931],[51.51189041628, -0.17599198672],[51.51218586357, -0.17590812761],[51.51230941206, -0.17633554277],[51.5125482213, -0.17665747604],[51.51336708001, -0.17784980002],[51.51390983452, -0.17863522372],[51.51505935381, -0.18027563803],[51.51620907402, -0.18193053881],[51.51719321466, -0.18334708474],[51.51756250576, -0.18396657712],[51.51773838618, -0.18429108899],[51.51791292804, -0.18452917596],[51.51809125885, -0.18501214335],[51.51826594826, -0.18584118414],[51.51820727248, -0.18611737254],[51.51829127325, -0.18631582489],[51.51769780205, -0.18864553731],[51.51788065492, -0.18884007068],[51.51789907364, -0.18886816686],[51.51797208124, -0.18893733795],[51.51798894305, -0.18886460186]]",
+                        "stopPoints": []
+                    },
+                    "plannedWorks": [],
+                    "routeOptions": [
+                        {
+                            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.RouteOption, Tfl.Api.Presentation.Entities",
+                            "directions": [
+                                ""
+                            ],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "startDateTime": "2018-02-18T10:20:00"
+        }
+    ],
+    "lines": [
+        {
+            "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+            "created": "2018-02-13T11:39:12.987Z",
+            "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+            },
+            "disruptions": [],
+            "id": "bakerloo",
+            "lineStatuses": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                    "created": "0001-01-01T00:00:00",
+                    "id": 0,
+                    "statusSeverity": 10,
+                    "statusSeverityDescription": "Good Service",
+                    "validityPeriods": []
+                }
+            ],
+            "modeName": "tube",
+            "modified": "2018-02-13T11:39:12.987Z",
+            "name": "Bakerloo",
+            "routeSections": [],
+            "serviceTypes": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                    "name": "Regular",
+                    "uri": "/Line/Route?ids=Bakerloo&serviceTypes=Regular"
+                }
+            ]
+        },
+        {
+            "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+            "created": "2018-02-13T11:39:12.983Z",
+            "crowding": {
+                "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+            },
+            "disruptions": [],
+            "id": "victoria",
+            "lineStatuses": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+                    "created": "0001-01-01T00:00:00",
+                    "id": 0,
+                    "statusSeverity": 10,
+                    "statusSeverityDescription": "Good Service",
+                    "validityPeriods": []
+                }
+            ],
+            "modeName": "tube",
+            "modified": "2018-02-13T11:39:12.983Z",
+            "name": "Victoria",
+            "routeSections": [],
+            "serviceTypes": [
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                    "name": "Regular",
+                    "uri": "/Line/Route?ids=Victoria&serviceTypes=Regular"
+                },
+                {
+                    "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+                    "name": "Night",
+                    "uri": "/Line/Route?ids=Victoria&serviceTypes=Night"
+                }
+            ]
+        }
+    ],
+    "recommendedMaxAgeMinutes": 1,
+    "searchCriteria": {
+        "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.SearchCriteria, Tfl.Api.Presentation.Entities",
+        "dateTime": "2018-02-18T10:20:00",
+        "dateTimeType": "Departing",
+        "timeAdjustments": {
+            "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustments, Tfl.Api.Presentation.Entities",
+            "earlier": {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+                "date": "20180218",
+                "time": "1017",
+                "timeIs": "departing",
+                "uri": "/journey/journeyresults/vauxhall%20underground%20station/to/royal%20oak%20underground%20station/?mode=tube&time=1017&date=20180218&timeIs=departing"
+            },
+            "earliest": {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+                "date": "20180218",
+                "time": "0300",
+                "timeIs": "departing",
+                "uri": "/journey/journeyresults/vauxhall%20underground%20station/to/royal%20oak%20underground%20station/?mode=tube&time=0300&date=20180218&timeIs=departing"
+            },
+            "later": {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+                "date": "20180218",
+                "time": "1026",
+                "timeIs": "departing",
+                "uri": "/journey/journeyresults/vauxhall%20underground%20station/to/royal%20oak%20underground%20station/?mode=tube&time=1026&date=20180218&timeIs=departing"
+            },
+            "latest": {
+                "$type": "Tfl.Api.Presentation.Entities.JourneyPlanner.TimeAdjustment, Tfl.Api.Presentation.Entities",
+                "date": "20180219",
+                "time": "0300",
+                "timeIs": "departing",
+                "uri": "/journey/journeyresults/vauxhall%20underground%20station/to/royal%20oak%20underground%20station/?mode=tube&time=0300&date=20180219&timeIs=departing"
+            }
+        }
+    },
+    "stopMessages": [
+        "Please take extra care and hold the handrail. Please use the lift if travelling with luggage, buggies etc.",
+        "HAMMERSMITH & CITY LINE: Saturday 17 and Sunday 18 February, no service between Hammersmith and Baker Street. A reduced service will operate on the rest of the line."
+    ]
+}
