@@ -1,9 +1,9 @@
-from ./TFL/TFL.py import *
-from ./Spotify/spotifyQuerier.py import *
+from TFL import getRoute
+from spotifyQuerier import *
 
 origin = input("Origin: ")
 destination = input("Destination: ")
 
 journeyDict = getRoute(origin, destination)
 
-print(search(journeyDict['Stations'], journeyDict['Time']))
+print(search(journeyDict['Stations'], int(journeyDict['Time'])))

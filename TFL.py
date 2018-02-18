@@ -2,6 +2,8 @@ import requests
 import json
 
 def getRoute(origin,destination):
+
+    print(origin, destination)
     KEY=""
     fp=open('keys.txt', 'r')
     for line in fp:
@@ -26,8 +28,4 @@ def getRoute(origin,destination):
         fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
     return totalData
 
-origin=input("From:\n")+" Underground Station"
-destination=input("To:\n")+" Underground Station"
 
-print(origin)
-print(getRoute(origin,destination))

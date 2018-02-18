@@ -23,6 +23,9 @@ def authenticate():
 		)
 	f.close()
 	response = requests.post(url = auth_url, params = params, headers = headers)
+
+	print("Authenticate: " + str(response.status_code))
+
 	if 'refresh_token' in response.json():
 		f = open('auth.txt', 'w')
 		content[0] = response.json()['refresh_token']
@@ -47,7 +50,9 @@ def getTrackInfo(track_list, auth_code):
 
 	response = requests.get(url = url, headers = headers, params = params)
 
+	print("getTrackInfo: " + str(response.status_code))
 
+	print(response.json())
 
 	for track in response.json()['tracks']:
 
@@ -120,7 +125,6 @@ def createPlaylist(track_dict, journey_time, auth_code):
 		uri_list.extend(uri_list_temp)
 		time_list.extend(time_list_temp)
 
-	print(uri_list)
 #Create a playlist
 
 	url = 'https://api.spotify.com/v1/users/p4jjeadeuvo4zp30dt9krbx24/playlists'	
@@ -133,7 +137,7 @@ def createPlaylist(track_dict, journey_time, auth_code):
 
 	response = requests.post(url = url, headers = headers, data = json.dumps(data))
 
-	print("\n \n \n " + str(response.status_code) + "\n \n \n ")
+	print("Create Playlist: " + str(response.status_code))
 
 	playlist_url = response.json()['external_urls']['spotify']
 
@@ -183,4 +187,3 @@ def search(track_list, journey_time):
 	playlist_url = createPlaylist(info, journey_time, auth_code)
 
 	return playlist_url
-print(search(['Baker Street', 'Sloane Square'], 8))
