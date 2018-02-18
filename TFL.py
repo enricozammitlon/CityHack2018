@@ -10,7 +10,7 @@ def getRoute(origin,destination):
     for line in fp:
         KEY=str(line)
     print(KEY)
-    request="https://api.tfl.gov.uk/Journey/JourneyResults/"+origin+"/to/"+destination+str(KEY)
+    request="https://api.tfl.gov.uk/Journey/JourneyResults/"+origin+"/to/"+destination+"/?mode=tube"+str(KEY)
     requestedData = requests.get(request)
     jasonData = requestedData.json()
     journeysDict=[origin]
@@ -29,4 +29,3 @@ def getRoute(origin,destination):
         fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
     return totalData
 
-print(getRoute("Victoria","Baker Street"))
