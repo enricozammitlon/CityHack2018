@@ -1,11 +1,18 @@
+#--------------------------------------------------------------------
+# Spotify API caller by Toby James
+# tobyswjames@gmail.com - tbyjms.me
+#--------------------------------------------------------------------
+
 import requests
 import json
 import time
 
+# Authenticates against OAuth 2.0 to allow access to Spotify's API
+
 def authenticate():
 	auth_url = 'https://accounts.spotify.com/api/token'
 
-	with open('auth.txt', 'r') as f:
+	with open('auth.txt', 'r') as f:			# Authentication data stored in seperate file
 		content = f.readlines()
 		content = [x.strip() for x in content] 
 		refresh_code = content[0]
@@ -24,7 +31,7 @@ def authenticate():
 	f.close()
 	response = requests.post(url = auth_url, params = params, headers = headers)
 
-	print("Authenticate: " + str(response.status_code))
+	print("Authenticate: " + str(response.status_code))    # Print calls throughout file display progress of various HTTP verbs as the program runs
 
 	if 'refresh_token' in response.json():
 		f = open('auth.txt', 'w')
@@ -33,6 +40,9 @@ def authenticate():
 	return response.json()['access_token']
 
 	
+# Returns the information about tracks received as an array of track IDs. Authentication code
+# is passed through all functions for authentication, so authenticate() is only called once
+
 def getTrackInfo(track_list, auth_code):
 
 	headers = {'Authorization' : "Bearer " + auth_code}
@@ -44,6 +54,10 @@ def getTrackInfo(track_list, auth_code):
 	uri_list = []
 	popularity_list = []
 
+
+	while len(track_list) >= 50:
+		del track_list[::5]
+	
 	track_list = ",".join(track_list)
 
 	params = dict(ids = track_list)
@@ -71,6 +85,9 @@ def getTrackInfo(track_list, auth_code):
 		popularity = popularity_list)
 
 	return track_dict	
+
+# Creates and populates a playlist of songs it is given.
+# Sorts the songs by popularity.
 
 def createPlaylist(track_dict, journey_time, auth_code):
 
@@ -118,9 +135,9 @@ def createPlaylist(track_dict, journey_time, auth_code):
 		sorted_pops = sorted_pops_2
 		sorted_uris = sorted_uris_2
 
+		if not sorted_pops:
+			break
 
-#	if not sorted_pops:
-#			break
 
 		uri_list.extend(uri_list_temp)
 		time_list.extend(time_list_temp)
@@ -157,6 +174,7 @@ def createPlaylist(track_dict, journey_time, auth_code):
 	print(populate_response.status_code)
 	return playlist_url
 
+# Master function, takes input from TFL, calls authenticate() and passes the call down the whole chain.
 	
 def search(track_list, journey_time):
 	
@@ -177,11 +195,11 @@ def search(track_list, journey_time):
 			type = "track",
 			limit = '5')
 
-	
+
 		response = requests.get(url = url, headers = headers, params = params)
 		for item in response.json()['tracks']['items']:
 			response_list.append(item['id'])
-
+	print("Get tracks by id: " + str(response.status_code))
 	info = getTrackInfo(response_list, auth_code)
 
 	playlist_url = createPlaylist(info, journey_time, auth_code)

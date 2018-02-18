@@ -22,7 +22,7 @@ def getRoute(origin,destination):
             journeysDict.append(c['name'])
             counter+=1
     journeysDict=sorted(set(journeysDict))
-
+    print(journeysDict)
     totalData={"Time":time,"Stations":journeysDict}
     with open('out.json', 'w') as fp:
         fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
