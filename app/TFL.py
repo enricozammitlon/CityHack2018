@@ -7,8 +7,16 @@ import requests
 import json
 
 def getRoute(origin,destination):
-    origin=origin+" Underground Station"
-    destination=destination+" Underground Station"
+    exceptions = {'Paddington':'1000174', 'Waterloo':'1000254'}
+    if origin not in exceptions:
+        origin=origin+" Underground Station"
+    else:
+        origin = exceptions[origin]
+
+    if destination not in exceptions:
+        destination=destination+" Underground Station"
+    else:
+        destination = exceptions[destination]
     KEY=""
     fp=open('keys.txt', 'r')
     for line in fp:
