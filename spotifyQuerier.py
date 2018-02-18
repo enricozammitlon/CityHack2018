@@ -54,8 +54,6 @@ def getTrackInfo(track_list, auth_code):
 	uri_list = []
 	popularity_list = []
 
-	print("\n \n \n", track_list, "\n \n \n")
-
 	while len(track_list) >= 50:
 		del track_list[::5]
 
@@ -66,8 +64,6 @@ def getTrackInfo(track_list, auth_code):
 	response = requests.get(url = url, headers = headers, params = params)
 
 	print("getTrackInfo: " + str(response.status_code))
-
-	print(response.json())
 
 	for track in response.json()['tracks']:
 
@@ -147,7 +143,6 @@ def createPlaylist(track_dict, journey_time, auth_code):
 			uris = uri_list
 			)
 
-	print(uri_list)
 	populate_response = requests.post(url = populate_url, headers = populate_headers, data = json.dumps(populate_data))
 	print(populate_response.status_code)
 	return playlist_url
@@ -166,8 +161,6 @@ def search(track_list, journey_time):
 
 	response_list = []
 
-	print(track_list)
-
 	for track in track_list:
 		
 		if "Underground Station" in track:
@@ -184,7 +177,6 @@ def search(track_list, journey_time):
 		for item in response.json()['tracks']['items']:
 			response_list.append(item['id'])
 	print("Get tracks by id: " + str(response.status_code))
-	print(response.json())
 	info = getTrackInfo(response_list, auth_code)
 
 	playlist_url = createPlaylist(info, journey_time, auth_code)
