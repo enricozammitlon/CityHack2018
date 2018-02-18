@@ -2,6 +2,8 @@ import requests
 import json
 
 def getRoute(origin,destination):
+    origin=origin" Underground Station"
+    destination=destination+" Underground Station"
     KEY=""
     fp=open('keys.txt', 'r')
     for line in fp:
