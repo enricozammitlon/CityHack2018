@@ -7,7 +7,7 @@ import requests
 import json
 
 def getRoute(origin,destination):
-    exceptions = {'Paddington':'1000174', 'Waterloo':'1000254'}
+    exceptions = {'Paddington':'1000174', 'Waterloo':'1000254', 'Euston':'1000077'}
     if origin not in exceptions:
         origin=origin+" Underground Station"
     else:
