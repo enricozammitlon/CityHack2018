@@ -113,6 +113,7 @@ def createPlaylist(track_dict, journey_time, auth_code):
 		for item in sortedArray:
 			print(item)
 			if item[0] not in artists_list:
+				print("Added, time = ", time_total, "Journey time = ", journey_time)
 				uri_list.extend([item[1]])
 				time_total += item[2]
 				artist_list.extend([item[0]])
