@@ -1,4 +1,4 @@
-#--------------------------------------------------------------------
+#i--------------------------------------------------------------------
 # Spotify API caller by Toby James
 # tobyswjames@gmail.com - tbyjms.me
 #--------------------------------------------------------------------
@@ -47,19 +47,20 @@ def getTrackInfo(track_list, auth_code):
 
 	headers = {'Authorization' : "Bearer " + auth_code}
 	
-	url = 'https://api.spotify.com/v1/tracks/'
+	url = 'https://api.spotify.com/v1/tracks'
 
 	time_list = []
 	artist_list = []
 	uri_list = []
 	popularity_list = []
 
+	print("\n \n \n", track_list, "\n \n \n")
 
 	while len(track_list) >= 50:
 		del track_list[::5]
-	
-	track_list = ",".join(track_list)
 
+	track_list = ",".join(track_list)
+	
 	params = dict(ids = track_list)
 
 	response = requests.get(url = url, headers = headers, params = params)
@@ -95,52 +96,26 @@ def createPlaylist(track_dict, journey_time, auth_code):
 	uris = track_dict['uri']
 	times = [int(k) for k in track_dict['time']]
 	popularities = track_dict['popularity']	
+	uri_list = []
 
-	sorted_pops = sorted(popularities, reverse=True)
-	sorted_uris = uris
-	sorted_times = times
-	sorted_artists = artists
 #Sort songs by popularity, add the most popular ones to the list to be added to the playlist
 #aims to avoid adding songs by the same artist by passing through the list until it is empty or the time limit is reached
+	unsortedArray = []
+	for i in range(len(artists)):
+		unsortedArray.append([artists[i], uris[i], times[i], popularities[i]])
 
-	for i in range(len(sorted_pops)):
-		sorted_uris[i] = uris[popularities.index(sorted_pops[i])]
-		sorted_times[i] = times[popularities.index(sorted_pops[i])]
-		sorted_artists[i] = artists[popularities.index(sorted_pops[i])]
-	artist_list = []
-	uri_list = []
 	time_list = []
-	
+	artist_list = []
+	sortedArray= sorted(unsortedArray,key=lambda unsortedArray: unsortedArray[3], reverse=True);
+
 	while sum(time_list) < journey_time:
-		artist_list_temp = []
-		uri_list_temp = []
-		time_list_temp = []
-		for i in range(len(sorted_pops)):
-			if sorted_artists[i] not in artist_list_temp:
-				uri_list_temp.append(sorted_uris[i])
-				artist_list_temp.append(sorted_artists[i])
-				time_list_temp.append(sorted_times[i])
-				sorted_uris[i] = None
-				sorted_artists[i] = None
-				sorted_times[i] = None
-				sorted_pops[i] = None
-		
-		sorted_uris_2 = [x for x in sorted_uris if x != None]
-		sorted_artists_2 = [y for y in sorted_artists if y != None]
-		sorted_times_2 = [z for z in sorted_times if z != None]
-		sorted_pops_2 = [w for w in sorted_pops if w != None]
-
-		sorted_times = sorted_times_2
-		sorted_artists = sorted_artists_2
-		sorted_pops = sorted_pops_2
-		sorted_uris = sorted_uris_2
-
-		if not sorted_pops:
-			break
-
-
-		uri_list.extend(uri_list_temp)
-		time_list.extend(time_list_temp)
+		artists_list = []
+		for item in sortedArray:
+			print(item)
+			if item[0] not in artists_list:
+				uri_list.extend([item[1]])
+				time_list.extend([item[2]])
+				artist_list.extend([item[0]])
 
 #Create a playlist
 
@@ -169,7 +144,7 @@ def createPlaylist(track_dict, journey_time, auth_code):
 			uris = uri_list
 			)
 
-	print(playlist_id)
+	print(uri_list)
 	populate_response = requests.post(url = populate_url, headers = populate_headers, data = json.dumps(populate_data))
 	print(populate_response.status_code)
 	return playlist_url
@@ -188,8 +163,14 @@ def search(track_list, journey_time):
 
 	response_list = []
 
+	print(track_list)
+
 	for track in track_list:
-	
+		
+		if "Underground Station" in track:
+			track = track[:-20]
+		print(track)
+		
 		params = dict(
 			q = str(track).replace(" ", "+"),
 			type = "track",
@@ -200,6 +181,7 @@ def search(track_list, journey_time):
 		for item in response.json()['tracks']['items']:
 			response_list.append(item['id'])
 	print("Get tracks by id: " + str(response.status_code))
+	print(response.json())
 	info = getTrackInfo(response_list, auth_code)
 
 	playlist_url = createPlaylist(info, journey_time, auth_code)
