@@ -31,7 +31,7 @@ def authenticate():
 	f.close()
 	response = requests.post(url = auth_url, params = params, headers = headers)
 
-	#print("Authenticate: " + str(response.status_code))    # Print calls throughout file display progress of various HTTP verbs as the program runs
+	print("Authenticate: " + str(response.status_code))    # Print calls throughout file display progress of various HTTP verbs as the program runs
 
 	if 'refresh_token' in response.json():
 		f = open('auth.txt', 'w')
@@ -54,8 +54,6 @@ def getTrackInfo(track_list, auth_code):
 	uri_list = []
 	popularity_list = []
 
-	#print("\n \n \n", track_list, "\n \n \n")
-
 	while len(track_list) >= 50:
 		del track_list[::5]
 
@@ -65,9 +63,7 @@ def getTrackInfo(track_list, auth_code):
 
 	response = requests.get(url = url, headers = headers, params = params)
 
-	#print("getTrackInfo: " + str(response.status_code))
-
-	#print(response.json())
+	print("getTrackInfo: " + str(response.status_code))
 
 	for track in response.json()['tracks']:
 
@@ -104,19 +100,22 @@ def createPlaylist(track_dict, journey_time, auth_code):
 	for i in range(len(artists)):
 		unsortedArray.append([artists[i], uris[i], times[i], popularities[i]])
 
-	time_list = []
+	time_total = 0
 	artist_list = []
 	sortedArray= sorted(unsortedArray,key=lambda unsortedArray: unsortedArray[3], reverse=True);
 
-	while sum(time_list) < journey_time:
+	while time_total < journey_time:
 		artists_list = []
 		for item in sortedArray:
 			print(item)
 			if item[0] not in artists_list:
+				print("Added, time = ", time_total, "Journey time = ", journey_time)
 				uri_list.extend([item[1]])
-				time_list.extend([item[2]])
+				time_total += item[2]
 				artist_list.extend([item[0]])
-
+			
+			if time_total > journey_time:
+				break
 #Create a playlist
 
 	url = 'https://api.spotify.com/v1/users/p4jjeadeuvo4zp30dt9krbx24/playlists'	
@@ -144,9 +143,8 @@ def createPlaylist(track_dict, journey_time, auth_code):
 			uris = uri_list
 			)
 
-	#print(uri_list)
 	populate_response = requests.post(url = populate_url, headers = populate_headers, data = json.dumps(populate_data))
-	#print(populate_response.status_code)
+	print(populate_response.status_code)
 	return playlist_url
 
 # Master function, takes input from TFL, calls authenticate() and passes the call down the whole chain.
@@ -163,8 +161,6 @@ def search(track_list, journey_time):
 
 	response_list = []
 
-	#print(track_list)
-
 	for track in track_list:
 		
 		if "Underground Station" in track:
@@ -180,8 +176,7 @@ def search(track_list, journey_time):
 		response = requests.get(url = url, headers = headers, params = params)
 		for item in response.json()['tracks']['items']:
 			response_list.append(item['id'])
-	#print("Get tracks by id: " + str(response.status_code))
-	#print(response.json())
+	print("Get tracks by id: " + str(response.status_code))
 	info = getTrackInfo(response_list, auth_code)
 
 	playlist_url = createPlaylist(info, journey_time, auth_code)
