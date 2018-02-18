@@ -104,19 +104,21 @@ def createPlaylist(track_dict, journey_time, auth_code):
 	for i in range(len(artists)):
 		unsortedArray.append([artists[i], uris[i], times[i], popularities[i]])
 
-	time_list = []
+	time_total = 0
 	artist_list = []
 	sortedArray= sorted(unsortedArray,key=lambda unsortedArray: unsortedArray[3], reverse=True);
 
-	while sum(time_list) < journey_time:
+	while time_total < journey_time:
 		artists_list = []
 		for item in sortedArray:
 			print(item)
 			if item[0] not in artists_list:
 				uri_list.extend([item[1]])
-				time_list.extend([item[2]])
+				time_total += item[2]
 				artist_list.extend([item[0]])
-
+			
+			if time_total > journey_time:
+				break
 #Create a playlist
 
 	url = 'https://api.spotify.com/v1/users/p4jjeadeuvo4zp30dt9krbx24/playlists'	
