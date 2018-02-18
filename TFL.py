@@ -2,7 +2,8 @@ import requests
 import json
 
 def getRoute(origin,destination):
-
+    origin=origin+" Underground Station"
+    destination=destination+" Underground Station"
     print(origin, destination)
     KEY=""
     fp=open('keys.txt', 'r')
@@ -28,4 +29,4 @@ def getRoute(origin,destination):
         fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
     return totalData
 
-
+print(getRoute("Victoria","Baker Street"))
