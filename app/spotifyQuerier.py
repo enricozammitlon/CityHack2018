@@ -170,7 +170,7 @@ def search(track_list, journey_time):
 		params = dict(
 			q = str(track).replace(" ", "+"),
 			type = "track",
-			limit = '5')
+			limit = '10')
 
 
 		response = requests.get(url = url, headers = headers, params = params)

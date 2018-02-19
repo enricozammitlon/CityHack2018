@@ -27,9 +27,9 @@ def inbound_sms():
 	global origin
 	global destination
 	route=request.args['text']
-	parts=route.split(' ');
+	parts=route.split('to');
 	origin=parts[0]
-	destination=parts[2]
+	destination=parts[1]
 	sendBack()
 	return 'ok'
 
@@ -45,7 +45,7 @@ def sendBack():
 	journeyDict = getRoute(origin, destination)
 	link=search(journeyDict['Stations'], int(journeyDict['Time']))
 	print(link)
-	client.send_message({'from': 'TubeAmp','to': request.args['msisdn'],'text': link})
+	client.send_message({'from': '447418340203','to': request.args['msisdn'],'text': link})
 	return 'ok part 2'
 
 app.run(host='139.59.184.20', port=80, debug=True)
