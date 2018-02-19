@@ -11,12 +11,12 @@ def getRoute(origin,destination):
     if origin.lower() not in exceptions:
         origin=origin+" Underground Station"
     else:
-        origin = exceptions[origin]
+        origin = exceptions[origin.lower()]
 
     if destination.lower() not in exceptions:
         destination=destination+" Underground Station"
     else:
-        destination = exceptions[destination]
+        destination = exceptions[destination.lower()]
     KEY=""
     fp=open('keys.txt', 'r')
     for line in fp:
