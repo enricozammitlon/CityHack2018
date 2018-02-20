@@ -18,7 +18,7 @@ def getRoute(origin,destination):
     else:
         destination = exceptions[destination.lower()]
     KEY=""
-    fp=open('keys.txt', 'r')
+    fp=open('/var/www/html/tubeamp.me/app/.htkeys.txt', 'r')
     for line in fp:
         KEY=str(line)
     request="https://api.tfl.gov.uk/Journey/JourneyResults/"+origin+"/to/"+destination+"?mode=tube"+str(KEY)
@@ -35,6 +35,6 @@ def getRoute(origin,destination):
             counter+=1
     journeysDict=sorted(set(journeysDict))
     totalData={"Time":time,"Stations":journeysDict}
-    with open('out.json', 'w') as fp:
+    with open('/var/www/html/tubeamp.me/app/out.json', 'w') as fp:
         fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
     return totalData

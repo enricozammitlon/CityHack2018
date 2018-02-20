@@ -12,7 +12,7 @@ import time
 def authenticate():
 	auth_url = 'https://accounts.spotify.com/api/token'
 
-	with open('auth.txt', 'r') as f:			# Authentication data stored in seperate file
+	with open('/var/www/html/tubeamp.me/app/.htauth.txt', 'r') as f:			# Authentication data stored in seperate file
 		content = f.readlines()
 		content = [x.strip() for x in content] 
 		refresh_code = content[0]
@@ -34,7 +34,7 @@ def authenticate():
 	print("Authenticate: " + str(response.status_code))    # Print calls throughout file display progress of various HTTP verbs as the program runs
 
 	if 'refresh_token' in response.json():
-		f = open('auth.txt', 'w')
+		f = open('/var/www/html/tubeamp.me/app/.htauth.txt', 'w')
 		content[0] = response.json()['refresh_token']
 		f.writelines(content)
 	return response.json()['access_token']
