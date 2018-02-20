@@ -47,5 +47,5 @@ def sendBack():
 	print(link)
 	client.send_message({'from': '447418340203','to': request.args['msisdn'],'text': link})
 	return 'ok part 2'
-
-app.run(host='139.59.184.20', port=80, debug=True)
+if __name__ == '__main__':
+	app.run(host='139.59.184.20', port=80, debug=True)
