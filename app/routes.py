@@ -6,13 +6,15 @@ from spotifyQuerier import *
 import nexmo
 from forms import LoginForm
 
-with open('/var/www/html/tubeamp.me/app/.htnexmo.txt', 'r') as f:
-	content = f.readlines()
-        key = content[0]
-        secret = content[1]
-	client = nexmo.Client(key = key, secret = secret)
+f = open('/var/www/html/tubeamp.me/app/.htnexmo.txt', 'r')
+
+content = f.readlines()
+client_key = content[0]
+client_secret = content[1]
+client = nexmo.Client(key = client_key, secret = client_secret)
 
 app = Flask(__name__)
+app.debug=True
 global origin
 origin=""
 global destination
@@ -22,11 +24,11 @@ destination=""
 @app.route('/index')
 def index():
 	return render_template('index.html')
-"""
-@app.route('/delivery-receipt', methods=["POST"])
-def aboutme():
-	return ("")
-"""
+
+#@app.route('/delivery-receipt', methods=["POST"])
+#def aboutme():
+#	return ("")
+
 @app.route('/inbound-sms', methods=["GET"])
 def inbound_sms():
 	global origin

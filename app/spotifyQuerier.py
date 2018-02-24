@@ -176,8 +176,6 @@ def search(track_list, journey_time):
 		response = requests.get(url = url, headers = headers, params = params)
 		for item in response.json()['tracks']['items']:
 			response_list.append(item['id'])
-
-
 	print("Get tracks by id: " + str(response.status_code))
 	info = getTrackInfo(response_list, auth_code)
 

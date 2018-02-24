@@ -35,6 +35,6 @@ def getRoute(origin,destination):
             counter+=1
     journeysDict=sorted(set(journeysDict))
     totalData={"Time":time,"Stations":journeysDict}
-    with open('/var/www/html/tubeamp.me/app/out.json', 'w') as fp:
-        fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
+    #with open('/var/www/html/tubeamp.me/app/out.json', 'w') as fp:
+        #fp.write(json.dumps(jasonData, indent=4, sort_keys=True))
     return totalData

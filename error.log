@@ -1,0 +1,348 @@
+[Sat Feb 24 17:06:08.074531 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Attach interpreter ''.
+[Sat Feb 24 17:06:08.075797 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077463 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077541 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077566 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077591 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077613 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.077636 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080563 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080633 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080659 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080683 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080707 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080731 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080755 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:08.080782 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15384): Started thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:06:13.953368 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:06:13.953487 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:06:13.953791 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:06:13.953816 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:06:13.954486 2018] [wsgi:info] [pid 15384] [remote 81.107.144.137:57112] mod_wsgi (pid=15384, process='tubeamp.me', application=''): Loading WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:06:14.571971 2018] [deflate:debug] [pid 15385] mod_deflate.c(853): [client 81.107.144.137:57112] AH01384: Zlib: Compressed 3062 to 1186 : URL /
+[Sat Feb 24 17:06:15.076961 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.077037 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.077165 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.077260 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.121689 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.121733 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.121854 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.121877 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.126414 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.126452 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.126561 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.126584 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.132231 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.132268 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.132381 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.132405 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.138908 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.138978 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139220 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139239 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139419 2018] [authz_core:debug] [pid 15388] mod_authz_core.c(809): [client 81.107.144.137:57116] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139477 2018] [authz_core:debug] [pid 15388] mod_authz_core.c(809): [client 81.107.144.137:57116] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139645 2018] [authz_core:debug] [pid 15388] mod_authz_core.c(809): [client 81.107.144.137:57116] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.139684 2018] [authz_core:debug] [pid 15388] mod_authz_core.c(809): [client 81.107.144.137:57116] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.560237 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.560305 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:06:15.560394 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.560412 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:06:15.560535 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.560560 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.560604 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:06:15.560631 2018] [authz_core:debug] [pid 15386] mod_authz_core.c(809): [client 81.107.144.137:57114] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:06:15.607975 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.608028 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.608149 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.608172 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.678659 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.678711 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.678830 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.678854 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.729670 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.729724 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.729867 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.729924 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.777485 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.777531 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.777648 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:15.777672 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:20.216199 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:20.216282 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:20.216412 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:06:20.216436 2018] [authz_core:debug] [pid 15385] mod_authz_core.c(809): [client 81.107.144.137:57112] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:09:36.733294 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Shutdown requested 'tubeamp.me'.
+[Sat Feb 24 17:09:36.733571 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Stopping process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.733590 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Destroying interpreters.
+[Sat Feb 24 17:09:36.733601 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Cleanup interpreter ''.
+[Sat Feb 24 17:09:36.733953 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Terminating Python.
+[Sat Feb 24 17:09:36.736240 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736435 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736465 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736542 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736555 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736597 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736603 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736646 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736651 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736695 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736699 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736765 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736765 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.736813 2018] [wsgi:debug] [pid 15384] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15384): Exiting thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:36.906612 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Python has shutdown.
+[Sat Feb 24 17:09:36.906695 2018] [wsgi:info] [pid 15384] mod_wsgi (pid=15384): Exiting process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.081546 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Attach interpreter ''.
+[Sat Feb 24 17:09:38.085315 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085457 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085504 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085529 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085554 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085577 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085602 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.085628 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089314 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089380 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089418 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089440 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089466 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089491 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:38.089514 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8815): mod_wsgi (pid=15580): Started thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:09:44.338335 2018] [authz_core:debug] [pid 15582] mod_authz_core.c(809): [client 81.107.144.137:57160] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:09:44.338420 2018] [authz_core:debug] [pid 15582] mod_authz_core.c(809): [client 81.107.144.137:57160] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:09:44.338581 2018] [authz_core:debug] [pid 15582] mod_authz_core.c(809): [client 81.107.144.137:57160] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:09:44.338593 2018] [authz_core:debug] [pid 15582] mod_authz_core.c(809): [client 81.107.144.137:57160] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:09:44.339203 2018] [wsgi:info] [pid 15580] [remote 81.107.144.137:57160] mod_wsgi (pid=15580, process='tubeamp.me', application=''): Loading WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:09:45.074515 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160] mod_wsgi (pid=15580): Target WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi' cannot be loaded as Python module.
+[Sat Feb 24 17:09:45.074585 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160] mod_wsgi (pid=15580): Exception occurred processing WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:09:45.074628 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160] Traceback (most recent call last):
+[Sat Feb 24 17:09:45.074668 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160]   File "/var/www/html/tubeamp.me/app/tubeamp.me.wsgi", line 6, in <module>
+[Sat Feb 24 17:09:45.074767 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160]     from routes import app as application
+[Sat Feb 24 17:09:45.074791 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160]   File "/var/www/html/tubeamp.me/app/routes.py", line 17, in <module>
+[Sat Feb 24 17:09:45.074866 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160]     app.debug(True)
+[Sat Feb 24 17:09:45.074905 2018] [wsgi:error] [pid 15580] [remote 81.107.144.137:57160] TypeError: 'bool' object is not callable
+[Sat Feb 24 17:10:25.187924 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Shutdown requested 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188108 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188142 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Stopping process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188162 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Destroying interpreters.
+[Sat Feb 24 17:10:25.188176 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Cleanup interpreter ''.
+[Sat Feb 24 17:10:25.188368 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188427 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188478 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188529 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188578 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.188605 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Terminating Python.
+[Sat Feb 24 17:10:25.188627 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190507 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190627 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190676 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190723 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190768 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190815 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.190862 2018] [wsgi:debug] [pid 15580] src/server/mod_wsgi.c(8796): mod_wsgi (pid=15580): Exiting thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.333780 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Python has shutdown.
+[Sat Feb 24 17:10:25.333838 2018] [wsgi:info] [pid 15580] mod_wsgi (pid=15580): Exiting process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.792512 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Attach interpreter ''.
+[Sat Feb 24 17:10:25.799913 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800016 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800047 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800072 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800095 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800118 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800140 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.800171 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.801269 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.801325 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.805307 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.805411 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.805476 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.805523 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:25.805554 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16101): Started thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:10:29.424959 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:10:29.425072 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:10:29.425327 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:10:29.425344 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:10:29.426028 2018] [wsgi:info] [pid 16101] [remote 81.107.144.137:57162] mod_wsgi (pid=16101, process='tubeamp.me', application=''): Loading WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:10:30.168247 2018] [deflate:debug] [pid 16103] mod_deflate.c(853): [client 81.107.144.137:57162] AH01384: Zlib: Compressed 3062 to 1186 : URL /
+[Sat Feb 24 17:10:30.717492 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.717570 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.717658 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.717674 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.724575 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.724643 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.724734 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.724747 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.729237 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.729383 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.729555 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.729568 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730241 2018] [authz_core:debug] [pid 16104] mod_authz_core.c(809): [client 81.107.144.137:57166] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730293 2018] [authz_core:debug] [pid 16104] mod_authz_core.c(809): [client 81.107.144.137:57166] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730431 2018] [authz_core:debug] [pid 16104] mod_authz_core.c(809): [client 81.107.144.137:57166] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730443 2018] [authz_core:debug] [pid 16104] mod_authz_core.c(809): [client 81.107.144.137:57166] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730565 2018] [authz_core:debug] [pid 16102] mod_authz_core.c(809): [client 81.107.144.137:57168] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730603 2018] [authz_core:debug] [pid 16102] mod_authz_core.c(809): [client 81.107.144.137:57168] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730717 2018] [authz_core:debug] [pid 16102] mod_authz_core.c(809): [client 81.107.144.137:57168] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.730730 2018] [authz_core:debug] [pid 16102] mod_authz_core.c(809): [client 81.107.144.137:57168] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.732398 2018] [authz_core:debug] [pid 16106] mod_authz_core.c(809): [client 81.107.144.137:57170] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.732476 2018] [authz_core:debug] [pid 16106] mod_authz_core.c(809): [client 81.107.144.137:57170] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.732623 2018] [authz_core:debug] [pid 16106] mod_authz_core.c(809): [client 81.107.144.137:57170] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.732637 2018] [authz_core:debug] [pid 16106] mod_authz_core.c(809): [client 81.107.144.137:57170] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.880793 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.880870 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.880969 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.880981 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.885217 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:10:30.885280 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:10:30.885370 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:10:30.885382 2018] [authz_core:debug] [pid 16105] mod_authz_core.c(809): [client 81.107.144.137:57164] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:10:30.945131 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.945276 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.945412 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.945431 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.983406 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.983483 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.983596 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:30.983614 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.066139 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.066199 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.066260 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.066271 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.092466 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.092548 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.092665 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:31.092683 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:35.612525 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:35.612646 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:35.612773 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:35.612794 2018] [authz_core:debug] [pid 16103] mod_authz_core.c(809): [client 81.107.144.137:57162] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:10:36.325059 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162] mod_wsgi (pid=16101): Exception occurred processing WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:10:36.325300 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162] Traceback (most recent call last):
+[Sat Feb 24 17:10:36.325366 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1701, in __call__
+[Sat Feb 24 17:10:36.333967 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     return self.wsgi_app(environ, start_response)
+[Sat Feb 24 17:10:36.334092 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1689, in wsgi_app
+[Sat Feb 24 17:10:36.334175 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     response = self.make_response(self.handle_exception(e))
+[Sat Feb 24 17:10:36.334197 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1687, in wsgi_app
+[Sat Feb 24 17:10:36.334228 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     response = self.full_dispatch_request()
+[Sat Feb 24 17:10:36.334254 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1360, in full_dispatch_request
+[Sat Feb 24 17:10:36.334285 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     rv = self.handle_user_exception(e)
+[Sat Feb 24 17:10:36.334305 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1358, in full_dispatch_request
+[Sat Feb 24 17:10:36.334373 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     rv = self.dispatch_request()
+[Sat Feb 24 17:10:36.334394 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1344, in dispatch_request
+[Sat Feb 24 17:10:36.334421 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     return self.view_functions[rule.endpoint](**req.view_args)
+[Sat Feb 24 17:10:36.334443 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/var/www/html/tubeamp.me/app/routes.py", line 47, in calculate
+[Sat Feb 24 17:10:36.334575 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     journeyDict = getRoute(origin, destination)
+[Sat Feb 24 17:10:36.334612 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]   File "/var/www/html/tubeamp.me/app/TFL.py", line 38, in getRoute
+[Sat Feb 24 17:10:36.340258 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162]     with open('/var/www/html/tubeamp.me/app/out.json', 'w') as fp:
+[Sat Feb 24 17:10:36.340347 2018] [wsgi:error] [pid 16101] [remote 81.107.144.137:57162] IOError: [Errno 13] Permission denied: '/var/www/html/tubeamp.me/app/out.json'
+[Sat Feb 24 17:12:51.921301 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Shutdown requested 'tubeamp.me'.
+[Sat Feb 24 17:12:51.921594 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Stopping process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.921613 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Destroying interpreters.
+[Sat Feb 24 17:12:51.921623 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Cleanup interpreter ''.
+[Sat Feb 24 17:12:51.922002 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Terminating Python.
+[Sat Feb 24 17:12:51.925252 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925577 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925633 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925691 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925742 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925789 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925835 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925878 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925922 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.925965 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.926008 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.926055 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.929675 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:51.929822 2018] [wsgi:debug] [pid 16101] src/server/mod_wsgi.c(8796): mod_wsgi (pid=16101): Exiting thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.116555 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Python has shutdown.
+[Sat Feb 24 17:12:52.116645 2018] [wsgi:info] [pid 16101] mod_wsgi (pid=16101): Exiting process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.521481 2018] [wsgi:info] [pid 16213] mod_wsgi (pid=16213): Attach interpreter ''.
+[Sat Feb 24 17:12:52.526164 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 13 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526275 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 4 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526305 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 6 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526332 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 8 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526357 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 10 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526380 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 2 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.526402 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 0 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527477 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 14 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527538 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 5 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527565 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 7 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527588 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 9 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527616 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 11 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527638 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 12 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527660 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 3 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:52.527684 2018] [wsgi:debug] [pid 16213] src/server/mod_wsgi.c(8815): mod_wsgi (pid=16213): Started thread 1 in daemon process 'tubeamp.me'.
+[Sat Feb 24 17:12:56.550804 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:12:56.550930 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:12:56.551168 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted
+[Sat Feb 24 17:12:56.551200 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted
+[Sat Feb 24 17:12:56.551958 2018] [wsgi:info] [pid 16213] [remote 81.107.144.137:57184] mod_wsgi (pid=16213, process='tubeamp.me', application=''): Loading WSGI script '/var/www/html/tubeamp.me/app/tubeamp.me.wsgi'.
+[Sat Feb 24 17:12:57.285535 2018] [deflate:debug] [pid 16217] mod_deflate.c(853): [client 81.107.144.137:57184] AH01384: Zlib: Compressed 3062 to 1186 : URL /
+[Sat Feb 24 17:12:57.798392 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.798466 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.798611 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.798629 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.805971 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.806017 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.806101 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.806118 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.809739 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57186] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.809791 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57186] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.809921 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57186] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.809933 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57186] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.810675 2018] [authz_core:debug] [pid 16214] mod_authz_core.c(809): [client 81.107.144.137:57188] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.810727 2018] [authz_core:debug] [pid 16214] mod_authz_core.c(809): [client 81.107.144.137:57188] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.810861 2018] [authz_core:debug] [pid 16214] mod_authz_core.c(809): [client 81.107.144.137:57188] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.810874 2018] [authz_core:debug] [pid 16214] mod_authz_core.c(809): [client 81.107.144.137:57188] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.812139 2018] [authz_core:debug] [pid 16216] mod_authz_core.c(809): [client 81.107.144.137:57190] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.812195 2018] [authz_core:debug] [pid 16216] mod_authz_core.c(809): [client 81.107.144.137:57190] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.812336 2018] [authz_core:debug] [pid 16216] mod_authz_core.c(809): [client 81.107.144.137:57190] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.812351 2018] [authz_core:debug] [pid 16216] mod_authz_core.c(809): [client 81.107.144.137:57190] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.813863 2018] [authz_core:debug] [pid 16218] mod_authz_core.c(809): [client 81.107.144.137:57192] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.813921 2018] [authz_core:debug] [pid 16218] mod_authz_core.c(809): [client 81.107.144.137:57192] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.814176 2018] [authz_core:debug] [pid 16218] mod_authz_core.c(809): [client 81.107.144.137:57192] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.814192 2018] [authz_core:debug] [pid 16218] mod_authz_core.c(809): [client 81.107.144.137:57192] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.987725 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.987825 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.987935 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:57.987951 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.038830 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:12:58.038908 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:12:58.039000 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:12:58.039012 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:12:58.077002 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.077078 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.077225 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.077247 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.098820 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.098891 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.098990 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.099002 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.123330 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.123392 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.123522 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.123539 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.152757 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.152813 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.152905 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:12:58.152922 2018] [authz_core:debug] [pid 16217] mod_authz_core.c(809): [client 81.107.144.137:57184] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:13:04.414635 2018] [authz_core:debug] [pid 16249] mod_authz_core.c(809): [client 81.107.144.137:57198] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:13:04.414728 2018] [authz_core:debug] [pid 16249] mod_authz_core.c(809): [client 81.107.144.137:57198] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:13:04.414939 2018] [authz_core:debug] [pid 16249] mod_authz_core.c(809): [client 81.107.144.137:57198] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:13:04.414963 2018] [authz_core:debug] [pid 16249] mod_authz_core.c(809): [client 81.107.144.137:57198] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:13:05.427423 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Authenticate: 200
+[Sat Feb 24 17:13:05.428254 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Green Park
+[Sat Feb 24 17:13:05.641887 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Oxford Circus
+[Sat Feb 24 17:13:05.823382 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Piccadilly Circus
+[Sat Feb 24 17:13:06.053839 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] victoria
+[Sat Feb 24 17:13:06.257297 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Get tracks by id: 200
+[Sat Feb 24 17:13:06.480939 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] getTrackInfo: 200
+[Sat Feb 24 17:13:06.490944 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] [u'Nils Frahm', u'spotify:track:55c9jHCc9bsryobmiSQyvh', 240648, 63]
+[Sat Feb 24 17:13:06.491054 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] ('Added, time = ', 0, 'Journey time = ', 540000)
+[Sat Feb 24 17:13:06.491080 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] [u'The Kinks', u'spotify:track:2SNbPtN41VNduNAC52lh0L', 220013, 56]
+[Sat Feb 24 17:13:06.491100 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] ('Added, time = ', 240648, 'Journey time = ', 540000)
+[Sat Feb 24 17:13:06.491123 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] [u'Sabaton', u'spotify:track:2wz7AsHWwJU3wfmGiOiKoa', 250720, 56]
+[Sat Feb 24 17:13:06.491143 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] ('Added, time = ', 460661, 'Journey time = ', 540000)
+[Sat Feb 24 17:13:06.676428 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Create Playlist: 201
+[Sat Feb 24 17:13:06.854877 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] 201
