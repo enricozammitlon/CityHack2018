@@ -71,3 +71,5 @@
 81.107.144.137 - - [24/Feb/2018:17:12:58 +0000] "GET /assets/js/util.js HTTP/1.1" 404 429 "http://tubeamp.me/" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
 81.107.144.137 - - [24/Feb/2018:17:12:58 +0000] "GET /assets/js/main.js HTTP/1.1" 404 429 "http://tubeamp.me/" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
 81.107.144.137 - - [24/Feb/2018:17:13:04 +0000] "POST /calculate HTTP/1.1" 302 688 "http://tubeamp.me/" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
+81.107.144.137 - - [24/Feb/2018:17:18:43 +0000] "GET /images/bg.jpg HTTP/1.1" 404 430 "http://tubeamp.me/static/css/main.css" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"
+81.107.144.137 - - [24/Feb/2018:17:18:51 +0000] "POST /calculate HTTP/1.1" 302 688 "http://tubeamp.me/" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"

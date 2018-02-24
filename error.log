@@ -346,3 +346,62 @@
 [Sat Feb 24 17:13:06.491143 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] ('Added, time = ', 460661, 'Journey time = ', 540000)
 [Sat Feb 24 17:13:06.676428 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] Create Playlist: 201
 [Sat Feb 24 17:13:06.854877 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57198] 201
+[Sat Feb 24 17:18:43.547932 2018] [authz_core:debug] [pid 16253] mod_authz_core.c(809): [client 81.107.144.137:57316] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:18:43.548039 2018] [authz_core:debug] [pid 16253] mod_authz_core.c(809): [client 81.107.144.137:57316] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:18:43.548217 2018] [authz_core:debug] [pid 16253] mod_authz_core.c(809): [client 81.107.144.137:57316] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:18:43.548240 2018] [authz_core:debug] [pid 16253] mod_authz_core.c(809): [client 81.107.144.137:57316] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/static/css/main.css
+[Sat Feb 24 17:18:51.410089 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57326] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:18:51.410156 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57326] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:18:51.410249 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57326] AH01626: authorization result of Require all granted: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:18:51.410266 2018] [authz_core:debug] [pid 16215] mod_authz_core.c(809): [client 81.107.144.137:57326] AH01626: authorization result of <RequireAny>: granted, referer: http://tubeamp.me/
+[Sat Feb 24 17:18:52.735956 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Authenticate: 200
+[Sat Feb 24 17:18:52.737135 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Acton Town
+[Sat Feb 24 17:18:52.932804 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Barons Court
+[Sat Feb 24 17:18:53.127114 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Boston Manor
+[Sat Feb 24 17:18:53.322301 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Earl's Court
+[Sat Feb 24 17:18:53.522731 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Gloucester Road
+[Sat Feb 24 17:18:53.729783 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Green Park
+[Sat Feb 24 17:18:53.937475 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hammersmith (Dist&Picc Line)
+[Sat Feb 24 17:18:59.136013 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hatton Cross
+[Sat Feb 24 17:18:59.349178 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Heathrow Terminals 1-2-3 
+[Sat Feb 24 17:19:04.549131 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hounslow Central
+[Sat Feb 24 17:19:04.736003 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hounslow East
+[Sat Feb 24 17:19:04.932709 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hounslow West
+[Sat Feb 24 17:19:05.144834 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Hyde Park Corner
+[Sat Feb 24 17:19:05.375660 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Knightsbridge
+[Sat Feb 24 17:19:05.577461 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Northfields
+[Sat Feb 24 17:19:05.786926 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Osterley
+[Sat Feb 24 17:19:05.991365 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Piccadilly Circus
+[Sat Feb 24 17:19:06.195006 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] South Ealing
+[Sat Feb 24 17:19:06.394115 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] South Kensington
+[Sat Feb 24 17:19:06.602937 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] heathrow airport terminals 4 & 5
+[Sat Feb 24 17:19:06.799721 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Get tracks by id: 200
+[Sat Feb 24 17:19:07.026306 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] getTrackInfo: 200
+[Sat Feb 24 17:19:07.036277 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Boston Manor', u'spotify:track:6zYGAHDF3P1fim7r7v1boK', 168968, 43]
+[Sat Feb 24 17:19:07.036368 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 0, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036404 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Boston Manor', u'spotify:track:0fdJRK2EBnKCMhE0T66S8C', 191693, 40]
+[Sat Feb 24 17:19:07.036433 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 168968, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036464 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Boston Manor', u'spotify:track:7vYrhFEDhg2LOuyWbWhFFv', 199141, 39]
+[Sat Feb 24 17:19:07.036492 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 360661, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036524 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Boston Manor', u'spotify:track:6J3azrWtni4OCtz2UXeLzL', 195200, 34]
+[Sat Feb 24 17:19:07.036552 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 559802, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036583 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Various Artists', u'spotify:track:12LuZeYb7GNd7QEiAsOLFV', 201479, 22]
+[Sat Feb 24 17:19:07.036612 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 755002, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036644 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Various Artists', u'spotify:track:7GatYCKWhh2oXQKsvXqw4R', 199884, 18]
+[Sat Feb 24 17:19:07.036673 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 956481, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036703 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Various Artists', u'spotify:track:0foiSI4BnV2EjUhrZFcoQt', 265000, 13]
+[Sat Feb 24 17:19:07.036731 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 1156365, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036763 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Paul Brown', u'spotify:track:0agWGDgxuSUWcM86oP8E3i', 228933, 10]
+[Sat Feb 24 17:19:07.036791 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 1421365, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036822 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Donovan', u'spotify:track:6TKpAmzPItPD7pY3gmJN1i', 231520, 10]
+[Sat Feb 24 17:19:07.036851 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 1650298, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036884 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Sarah Davachi', u'spotify:track:6iVdWhwWpDsaExHSpAiO9v', 455874, 8]
+[Sat Feb 24 17:19:07.036913 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 1881818, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.036943 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Sarah Davachi', u'spotify:track:2DzMXGbCa26uFysVdWmgW9', 777000, 7]
+[Sat Feb 24 17:19:07.036971 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 2337692, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.037002 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Donovan', u'spotify:track:37BEr7B8EzJk0UyANXRMlN', 229866, 4]
+[Sat Feb 24 17:19:07.037030 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 3114692, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.037060 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] [u'Stiff Little Fingers', u'spotify:track:5xoJMGLDoJLw5BmYO3Oyx2', 294506, 3]
+[Sat Feb 24 17:19:07.037088 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] ('Added, time = ', 3344558, 'Journey time = ', 3480000)
+[Sat Feb 24 17:19:07.241783 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] Create Playlist: 201
+[Sat Feb 24 17:19:07.480245 2018] [wsgi:error] [pid 16213] [remote 81.107.144.137:57326] 201
