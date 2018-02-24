@@ -6,9 +6,10 @@ from spotifyQuerier import *
 import nexmo
 from forms import LoginForm
 
-with open('.htnexmo.txt'. 'r') as f:
-	key = f.readlines()[0]
-	secret = f.readlines()[1]
+with open('/var/www/html/tubeamp.me/app/.htnexmo.txt', 'r') as f:
+	content = f.readlines()
+        key = content[0]
+        secret = content[1]
 	client = nexmo.Client(key = key, secret = secret)
 
 app = Flask(__name__)
