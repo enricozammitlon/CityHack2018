@@ -4,8 +4,12 @@ from flask import Flask, request,flash,redirect
 from TFL import getRoute
 from spotifyQuerier import *
 import nexmo
-client = nexmo.Client(key='5882b5e8', secret='Ultimatum1616')
 from forms import LoginForm
+
+with open('.htnexmo.txt'. 'r') as f:
+	key = f.readlines()[0]
+	secret = f.readlines()[1]
+	client = nexmo.Client(key = key, secret = secret)
 
 app = Flask(__name__)
 global origin
