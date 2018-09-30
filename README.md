@@ -1,6 +1,5 @@
-# CityHack2018
-Our submission project for the city hack 2018 in London.
-<<<<<<< HEAD
+# Tubeamp.me
 
-=======
->>>>>>> cac60533093094a76581a1285153882ac02ee970
+A Spotify playlist generator for journeys on the London underground.
+
+Using the names of stations on the route, Tubeamp.me creates playlists of songs named after the stations of the length of the journey. [Try it out!](https://tubeamp.me)
